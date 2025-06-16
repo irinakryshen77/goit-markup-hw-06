@@ -65,7 +65,7 @@ img {
 }
 
 .menu-open-icon {
-  fill: 2F2F37;
+  fill: #2f2f37;
 }
 
 .header {
@@ -190,7 +190,7 @@ img {
   .header-address-list {
     display: flex;
     flex-direction: column;
-    gap: 12 px;
+    gap: 12px;
   }
 
   .header-address-item {
@@ -305,7 +305,7 @@ img {
 .navigation-mobile-link {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -334,6 +334,14 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+}
+
+.accent {
+  color: #404bbf;
+}
+
+.accent-adress {
+  color: #4d5ae5;
 }
 
 .mobile-address-item:not(:last-child) {
@@ -370,7 +378,7 @@ img {
   fill: #f4f4fd;
 }
 
-.mobile-menu @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
@@ -397,13 +405,14 @@ img {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+  max-width: 320px;
 }
 
 @media screen and (min-resolution: 2x) {
   .hero {
     background-image: linear-gradient(
-        rgba(30, 24, 35, 0.4),
-        rgba(30, 24, 35, 0.4)
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero_mob2x.jpg);
   }
@@ -428,7 +437,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  align: center;
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
@@ -456,13 +464,14 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 768px;
   }
 
   @media screen and (min-resolution: 2x) {
     .hero {
       background-image: linear-gradient(
-          rgba(30, 24, 35, 0.4),
-          rgba(30, 24, 35, 0.4)
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
         ),
         url(../images/hero_tab2x.jpg);
     }
@@ -488,13 +497,14 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
   }
 
   @media screen and (min-resolution: 2x) {
     .hero {
       background-image: linear-gradient(
-          rgba(30, 24, 35, 0.4),
-          rgba(30, 24, 35, 0.4)
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
         ),
         url(../images/hero2x.jpg);
     }
@@ -516,7 +526,7 @@ img {
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 72px;
+  row-gap: 72px;
 }
 
 .benefits-item-icon {
@@ -549,7 +559,8 @@ img {
 
   .benefits-list {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
 
   .benefits-item {
