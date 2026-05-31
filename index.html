@@ -41,6 +41,11 @@
               </li>
             </ul>
           </nav>
+          <button class="burger-menu" type="button">
+                            <svg class="burger-menu-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-burger-menu"></use>
+                </svg>
+          </button>
         </div>
         <address class="address">
           <ul class="address-list">
@@ -121,13 +126,14 @@
         </div>
       </section>
       <section id="team" class="team-section section">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/Mark-Guerrero.jpg"
+                src="./images/Mark-Guerrero@1.jpg"
+                srcset="./images/Mark-Guerrero@1.jpg 1x, ./images/Mark-Guerrero@2.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
               />
@@ -169,7 +175,8 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/Tom-Ford.jpg"
+                src="./images/Tom-Ford@1.jpg"
+                srcset="./images/Tom-Ford@1.jpg 1x, ./images/Tom-Ford@2.jpg 2x"
                 alt="Tom Ford"
                 width="264"
               />
@@ -210,7 +217,8 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/Camila-Garcia.jpg"
+                src="./images/Camila-Garcia@1.jpg"
+                srcset="./images/Camila-Garcia@1.jpg 1x, ./images/Camila-Garcia@2.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
               />
@@ -250,7 +258,8 @@
             <li class="team-item">
               <img
                 class="team-img"
-                src="./images/Daniel-Wilson.jpg"
+                src="./images/Daniel-Wilson@1.jpg"
+                srcset="./images/Daniel-Wilson@1.jpg 1x, ./images/Daniel-Wilson@2.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
               />
@@ -298,7 +307,8 @@
               <div class="box-overlay">
                 <img
                   class="portfolio-img"
-                  src="./images/Banking-App.jpg"
+                  src="./images/Banking-App@1.jpg"
+                  srcset="./images/Banking-App@1.jpg 1x, ./images/Banking-App@2.jpg 2x"
                   alt="Banking App"
                   width="360"
                 />
@@ -317,7 +327,8 @@
               <div class="box-overlay">
                 <img
                   class="portfolio-img"
-                  src="./images/Cashless-Payment.jpg"
+                  src="./images/Cashless-Payment@1.jpg"
+                  srcset="./images/Cashless-Payment@1.jpg 1x, ./images/Cashless-Payment@2.jpg 2x"
                   alt="Cashless Payment"
                   width="360"
                 />
@@ -337,6 +348,7 @@
                 <img
                   class="portfolio-img"
                   src="./images/Meditation-App.jpg"
+                  srcset="./images/Meditation-App@1.jpg 1x, ./images/Meditation-App@2.jpg 2x"
                   alt="Meditation App"
                   width="360"
                 />
@@ -356,6 +368,7 @@
                 <img
                   class="portfolio-img"
                   src="./images/Taxi-Service.jpg"
+                  srcset="./images/Taxi-Service@1.jpg 1x, ./images/Taxi-Service@2.jpg 2x"
                   alt="Taxi Service"
                   width="360"
                 />
@@ -375,6 +388,7 @@
                 <img
                   class="portfolio-img"
                   src="./images/Screen-Illustrations.jpg"
+                  srcset="./images/Taxi-Service@1.jpg 1x, ./images/Taxi-Service@2.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                 />
@@ -394,6 +408,7 @@
                 <img
                   class="portfolio-img"
                   src="./images/Online-Courses.jpg"
+                  srcset="./images/Online-Courses@1.jpg 1x, ./images/Online-Courses@2.jpg 2x"
                   alt="Online Courses"
                   width="360"
                 />
@@ -476,7 +491,7 @@
       </div>
     </footer>
        <!-- Modal-->
-    <div class="backdrop is-open" id="modal">
+    <div class="backdrop" id="modal">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-cross-icon" width="8" height="8">
@@ -562,5 +577,63 @@
         </form>
       </div>
     </div>
+
+<!-- Mobail Menu-->
+    <div class="mobail-menu">
+      <button class="btn-mobail-menu" type="button">
+                        <svg class="mobail-menu-icon" width="8" height="8">
+                  <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+      </button>
+      <nav class="nav-mobail-menu">
+<ul class="list-mobail-menu">
+  <li class="item-mobail-menu"><a href="" class="link-mobail-menu akcent-mobail-menu">Studio</a></li>
+  <li class="item-mobail-menu"><a href="" class="link-mobail-menu">Portfolio</a></li>
+  <li class="item-mobail-menu"><a href="" class="link-mobail-menu">Contacts</a></li>
+</ul>
+      </nav>
+              <address class="address-mobail-menu">
+          <ul class="address-list-mobail-menu">
+            <li class="address-item-mobail-menu">
+              <a class="tel-link-mobail-menu" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="address-item-mobail-menu">
+              <a class="mail-link-mobail-menu" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+ <ul class="mobail-menu-social-list">
+            <li class="mobail-menu-social-item">
+              <a class="mobail-menu-social-link" href=""
+                ><svg class="mobail-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="mobail-menu-social-item">
+              <a class="mobail-menu-social-link" href=""
+                ><svg class="mobail-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="mobail-menu-social-item">
+              <a class="mobail-menu-social-link" href="">
+                <svg class="mobail-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobail-menu-social-item">
+              <a class="mobail-menu-social-link" href="">
+                <svg class="mobail-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
   </body>
 </html>

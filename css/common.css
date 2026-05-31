@@ -33,16 +33,46 @@ h6 {
   margin: 0;
 }
 
+  .container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}  
+
+@media screen and (min-width: 768px) {
+  .container {
+  max-width: 768px;
+}  
+}
+
+@media screen and (min-width: 1158px) {
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+}  
 }
 
+
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media screen and (min-width: 768px) {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}  
 }
+
+@media screen and (min-width: 1158px) {
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} 
+}
+
 
 img {
   display: block;
