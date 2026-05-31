@@ -12,6 +12,10 @@
   pointer-events: none;
 }
 
+.mobile-menu.is-open { 
+    opacity: 1; visibility: visible; pointer-events: auto; 
+}
+
 .btn-mobail-menu {
     position: absolute;
    top: 24px;
@@ -68,7 +72,8 @@ color:#2e2f42;
 
 .tel-link-mobail-menu,
 .mail-link-mobail-menu {
-font-weight: 500;
+font-style: normal
+    font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -117,4 +122,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .mobail-menu-social-link:hover,
 .mobail-menu-social-link:focus {
     background-color: #31d0aa;
+}
+
+@media screen and (min-width: 768px) {
+ .mobail-menu {
+    display: none;
+ }
+}
+
+@media screen and (min-width: 1158px) {
+
 }
